@@ -518,6 +518,47 @@ header {
     animation: shimmer 2s infinite;
 }
 
+.certificates {
+    padding: 100px 0;
+    background: rgba(15, 32, 39, 0.6);
+}
+
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.certificate-card {
+    background: rgba(44, 83, 100, 0.4);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(100, 255, 218, 0.1);
+    color: #fff;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.certificate-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 16px 32px rgba(100, 255, 218, 0.2);
+    border-color: #64ffda;
+}
+
+.certificate-card h4 {
+    color: #64ffda;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.certificate-card p {
+    color: #b0bec5;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
 @keyframes shimmer {
     0% { transform: translateX(-100%); }
     100% { transform: translateX(100%); }
