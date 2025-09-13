@@ -96,7 +96,7 @@ header {
 
   &.scrolled {
     background: $transparent-bg;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.561);
   }
 }
 
@@ -159,12 +159,12 @@ header {
     }
 
     &:hover {
-      color: $primary-color;
       background: rgba(100, 255, 218, 0.1);
       transform: translateY(-2px);
 
       &::before {
         width: 80%;
+        width: 0;
       }
     }
 
@@ -255,7 +255,7 @@ header {
     font-weight: 900;
     margin-bottom: 2rem;
     line-height: 1.1;
-    @include text-gradient;
+    color: $text-primary;
     text-transform: uppercase;
     letter-spacing: 3px;
   }
@@ -356,7 +356,7 @@ section {
   text-align: center;
   font-size: clamp(2rem, 5vw, 3rem);
   margin-bottom: 3rem;
-  color: $primary-color;
+  color: $text-primary;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -492,7 +492,7 @@ section {
   h2 {
     font-size: clamp(2rem, 4vw, 3rem);
     margin-bottom: 1.5rem;
-    color: $primary-color;
+    color: $text-primary;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
