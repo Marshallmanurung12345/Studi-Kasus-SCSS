@@ -297,7 +297,7 @@ section {
   text-align: center;
   font-size: clamp(2rem, 5vw, 3rem);
   margin-bottom: 3rem;
-  color: #ffffff;
+  color: #64ffda;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -419,7 +419,7 @@ section {
 .biography-text h2 {
   font-size: clamp(2rem, 4vw, 3rem);
   margin-bottom: 1.5rem;
-  color: #ffffff;
+  color: #64ffda;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1px;

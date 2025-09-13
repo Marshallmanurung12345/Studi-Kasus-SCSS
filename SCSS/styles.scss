@@ -356,7 +356,7 @@ section {
   text-align: center;
   font-size: clamp(2rem, 5vw, 3rem);
   margin-bottom: 3rem;
-  color: $text-primary;
+  color: $primary-color;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -492,7 +492,7 @@ section {
   h2 {
     font-size: clamp(2rem, 4vw, 3rem);
     margin-bottom: 1.5rem;
-    color: $text-primary;
+    color: $primary-color;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
